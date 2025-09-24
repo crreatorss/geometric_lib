@@ -30,4 +30,4 @@ jobs:
 
       - name: Run unit tests
         run: |
-          pytest
+          python -m unittest discover -s geometric_lib -p "test_*.py"
